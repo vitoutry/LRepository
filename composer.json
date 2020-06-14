@@ -12,6 +12,7 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "illuminate/support": "^8.0@dev",
         "illuminate/database": "^8.0@dev",
