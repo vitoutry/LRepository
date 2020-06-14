@@ -1,0 +1,21 @@
+{
+    "name": "vitoutry/lrepository",
+    "description": "this repository for laravel 7",
+    "require-dev": {
+        "mockery/mockery": "^1.4@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vitoutry",
+            "email": "vitoutry@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^8.0@dev",
+        "illuminate/database": "^8.0@dev",
+        "illuminate/filesystem": "^8.0@dev",
+        "illuminate/console": "^8.0@dev"
+    }
+}
