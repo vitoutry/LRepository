@@ -1,6 +1,6 @@
-<?php namespace Vitoutry\Repository\Criteria;
+<?php namespace Vitoutry\LRepository\Criteria;
 
-use Vitoutry\Repository\Contracts\RepositoryInterface as Repository;
+use Vitoutry\LRepository\Contracts\RepositoryInterface as Repository;
 
 abstract class Criteria {
 

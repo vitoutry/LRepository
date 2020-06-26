@@ -1,12 +1,12 @@
 <?php
 
-namespace Vitoutry\Repository\Contracts;
+namespace Vitoutry\LRepository\Contracts;
 
-use Vitoutry\Repository\Criteria\Criteria;
+use Vitoutry\LRepository\Criteria\Criteria;
 
 /**
  * Interface CriteriaInterface
- * @package Vitoutry\Repository\Contracts
+ * @package Vitoutry\LRepository\Contracts
  */
 interface CriteriaInterface {
 

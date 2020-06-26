@@ -1,16 +1,16 @@
 <?php
 
-namespace Vitoutry\Repository\Console\Commands;
+namespace Vitoutry\LRepository\Console\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
-use Vitoutry\Repository\Console\Commands\Creators\CriteriaCreator;
+use Vitoutry\LRepository\Console\Commands\Creators\CriteriaCreator;
 
 /**
  * Class MakeCriteriaCommand
  *
- * @package Vitoutry\Repository\Console\Commands
+ * @package Vitoutry\LRepository\Console\Commands
  */
 class MakeCriteriaCommand extends Command
 {

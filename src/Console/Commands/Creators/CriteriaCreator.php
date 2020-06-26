@@ -1,6 +1,6 @@
 <?php
 
-namespace Vitoutry\Repository\Console\Commands\Creators;
+namespace Vitoutry\LRepository\Console\Commands\Creators;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Config;
@@ -9,7 +9,7 @@ use Doctrine\Common\Inflector\Inflector;
 /**
  * Class CriteriaCreator
  *
- * @package Vitoutry\Repository\Console\Commands\Creators
+ * @package Vitoutry\LRepository\Console\Commands\Creators
  */
 class CriteriaCreator {
 

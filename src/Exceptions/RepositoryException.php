@@ -1,10 +1,10 @@
 <?php
 
-namespace Vitoutry\Repository\Exceptions;
+namespace Vitoutry\LRepository\Exceptions;
 
 /**
  * Class RepositoryException
- * @package Vitoutry\Repository\Exceptions
+ * @package Vitoutry\LRepository\Exceptions
  */
 class RepositoryException extends \Exception
 {

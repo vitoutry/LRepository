@@ -1,8 +1,8 @@
-<?php namespace Vitoutry\Repository\Contracts;
+<?php namespace Vitoutry\LRepository\Contracts;
 
 /**
  * Interface RepositoryInterface
- * @package Vitoutry\Repository\Contracts
+ * @package Vitoutry\LRepository\Contracts
  */
 interface RepositoryInterface {
 

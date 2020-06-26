@@ -1,18 +1,18 @@
 <?php
 
-namespace Vitoutry\Repository\Eloquent;
+namespace Vitoutry\LRepository\Eloquent;
 
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Container\Container as App;
-use Vitoutry\Repository\Contracts\RepositoryInterface;
-use Vitoutry\Repository\Exceptions\RepositoryException;
-use Vitoutry\Repository\Contracts\CriteriaInterface;
-use Vitoutry\Repository\Criteria\Criteria;
+use Vitoutry\LRepository\Contracts\RepositoryInterface;
+use Vitoutry\LRepository\Exceptions\RepositoryException;
+use Vitoutry\LRepository\Contracts\CriteriaInterface;
+use Vitoutry\LRepository\Criteria\Criteria;
 
 /**
  * Class Repository
- * @package Vitoutry\Repository\Eloquent
+ * @package Vitoutry\LRepository\Eloquent
  */
 abstract class Repository implements RepositoryInterface, CriteriaInterface
 {
@@ -48,7 +48,7 @@ abstract class Repository implements RepositoryInterface, CriteriaInterface
     /**
      * @param App $app
      * @param Collection $collection
-     * @throws \Vitoutry\Repository\Exceptions\RepositoryException
+     * @throws \Vitoutry\LRepository\Exceptions\RepositoryException
      */
     public function __construct(App $app, Collection $collection)
     {

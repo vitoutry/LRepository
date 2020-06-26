@@ -1,19 +1,19 @@
 <?php
 
-namespace Vitoutry\Repository\Providers;
+namespace Vitoutry\LRepository\Providers;
 
 use Illuminate\Support\Composer;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
-use Vitoutry\Repository\Console\Commands\MakeCriteriaCommand;
-use Vitoutry\Repository\Console\Commands\MakeRepositoryCommand;
-use Vitoutry\Repository\Console\Commands\Creators\CriteriaCreator;
-use Vitoutry\Repository\Console\Commands\Creators\RepositoryCreator;
+use Vitoutry\LRepository\Console\Commands\MakeCriteriaCommand;
+use Vitoutry\LRepository\Console\Commands\MakeRepositoryCommand;
+use Vitoutry\LRepository\Console\Commands\Creators\CriteriaCreator;
+use Vitoutry\LRepository\Console\Commands\Creators\RepositoryCreator;
 
 /**
  * Class RepositoryProvider
  *
- * @package Vitoutry\Repository\Providers
+ * @package Vitoutry\LRepository\Providers
  */
 class RepositoryProvider extends ServiceProvider
 {
