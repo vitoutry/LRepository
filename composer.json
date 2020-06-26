@@ -14,22 +14,23 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "illuminate/support": "^7.15",
-        "illuminate/database": "^7.15",
-        "illuminate/filesystem": "^7.15",
-        "illuminate/console": "^7.15"
+        "illuminate/support": "~5.0|~6.0|~7.0",
+        "illuminate/database": "~5.0|~6.0|~7.0",
+        "illuminate/filesystem": "~5.0|~6.0|~7.0",
+        "illuminate/console": "~5.0|~6.0|~7.0"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vitoutry\\LRepository\\Providers"
+                "Vitoutry\\LRepository\\Providers\\RepositoryProvider"
             ]
             
         }
     },
     "autoload": {
-        "psr-0": {
-            "LRepository": "src"
+        "psr-4": {
+          "Vitoutry\\LRepository\\": "src/"
         }
+      }
     }
 }
