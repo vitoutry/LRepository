@@ -18,5 +18,18 @@
         "illuminate/database": "7.15.0",
         "illuminate/filesystem": "7.15.0",
         "illuminate/console": "7.15.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vitoutry\\LRepository\\Providers"
+            ]
+            
+        }
+    },
+    "autoload": {
+        "psr-0": {
+            "LRepository": "src"
+        }
     }
 }
