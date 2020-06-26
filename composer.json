@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vitoutry\\LRepository\\Providers"
+                "Vitoutry\\y\\Providers"
             ]
             
         }
