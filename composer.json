@@ -23,14 +23,13 @@
         "laravel": {
             "providers": [
                 "Vitoutry\\LRepository\\Providers\\RepositoryProvider"
-            ]
-            
+            ]        
         }
     },
     "autoload": {
         "psr-4": {
           "Vitoutry\\LRepository\\": "src/"
         }
-      }
+      
     }
 }
