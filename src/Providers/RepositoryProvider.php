@@ -104,12 +104,15 @@ class RepositoryProvider extends ServiceProvider
     protected function registerMakeRepositoryCommand()
     {
         // Make repository command.
-        $this->app['command.repository.make'] = $this->app->share(
-            function($app)
-            {
-                return new MakeRepositoryCommand($app['RepositoryCreator'], $app['Composer']);
-            }
-        );
+        $this->app->singleton('command.repository.make',function($app){
+            return new MakeRepositoryCommand($app['RepositoryCreator'], $app['Composer']);
+        });
+        // $this->app['command.repository.make'] = $this->app->share(
+        //     function($app)
+        //     {
+        //         return new MakeRepositoryCommand($app['RepositoryCreator'], $app['Composer']);
+        //     }
+        // );
     }
 
     /**
@@ -118,12 +121,15 @@ class RepositoryProvider extends ServiceProvider
     protected function registerMakeCriteriaCommand()
     {
         // Make criteria command.
-        $this->app['command.criteria.make'] = $this->app->share(
-            function($app)
-            {
-                return new MakeCriteriaCommand($app['CriteriaCreator'], $app['Composer']);
-            }
-        );
+        $this->app->singleton('command.criteria.make',function($app){
+            return new MakeCriteriaCommand($app['CriteriaCreator'], $app['Composer']);
+        });
+        // $this->app['command.criteria.make'] = $this->app->share(
+        //     function($app)
+        //     {
+        //         return new MakeCriteriaCommand($app['CriteriaCreator'], $app['Composer']);
+        //     }
+        // );
     }
 
     /**
