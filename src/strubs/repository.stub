@@ -1,0 +1,21 @@
+<?php 
+namespace repository_namespace;
+
+use Vitoutry\LRepository\Contracts\RepositoryInterface;
+use Vitoutry\LRepository\Eloquent\Repository;
+
+/**
+ * Class repository_class
+ * @package repository_namespace
+ */
+class repository_class extends Repository
+{
+
+    /**
+     * @return string
+     */
+    public function model()
+    {
+        return 'model_path\model_name';
+    }
+}

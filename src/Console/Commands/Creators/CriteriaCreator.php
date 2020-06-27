@@ -206,7 +206,7 @@ class CriteriaCreator {
     protected function getStubPath()
     {
         // Path
-        $path = __DIR__ . '/../../../../../../resources/stubs/';
+        $path = __DIR__ . '/../../../../stubs/';
 
         // Return the path.
         return $path;
